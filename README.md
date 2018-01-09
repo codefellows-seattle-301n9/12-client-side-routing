@@ -16,6 +16,7 @@ Complete [today's Kata](https://www.codewars.com/kata/highest-scoring-word) and 
   - How long you spent working on this assignment
 
 ## Resources
+- [PageJS Demo - Internets of Thing](https://github.com/JB-Tellez/internets-of-thing/)
 - [PageJS Docs](https://visionmedia.github.io/page.js/)
 - [Book Store Wireframe](./wireframes)
 
