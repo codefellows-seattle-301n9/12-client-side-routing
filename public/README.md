@@ -16,12 +16,12 @@
 
 #-3-[X] Mobile Friendly app
 
-#-4-[ ] App is clean and free of distractions {
+#-4-[X] App is clean and free of distractions {
 
-#--A-[ ] Add hamburger menu to house nav bar
+#--A-[X] Add hamburger menu to house nav bar
 #}
 
-#-5-[ ] Style app using module.css, base.css, and layout.css files {
+#-5-[X] Style app using module.css, base.css, and layout.css files {
 
-#--A-[ ] SMACCS
+#--A-[X] SMACCS
 #}

@@ -2,22 +2,22 @@ var app = app || {};
 
 (module => {
 
-    // const API_URL = {
-    //     getAll      :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books',
-    //     getOne      :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books',
-    //     updateOne   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/updateBook',
-    //     postOne     :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/addNewBook',
-    //     deteleOne   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/deleteBook',
-    //     deteleAll   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/deleteAllBooks'
-    // }
     const API_URL = {
-        getAll      :   'http://localhost:8080/api/v1/books',
-        getOne      :   'http://localhost:8080/api/v1/books',
-        updateOne   :   'http://localhost:8080/api/v1/books/updateBook',
-        postOne     :   'http://localhost:8080/api/v1/books/addNewBook',
-        deteleOne   :   'http://localhost:8080/api/v1/books/deleteBook',
-        deteleAll   :   'http://localhost:8080/api/v1/books/deleteAllBooks'
+        getAll      :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books',
+        getOne      :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books',
+        updateOne   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/updateBook',
+        postOne     :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/addNewBook',
+        deteleOne   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/deleteBook',
+        deteleAll   :   'https://server-lab10-codefellows.herokuapp.com/api/v1/books/deleteAllBooks'
     }
+    // const API_URL = {
+    //     getAll      :   'http://localhost:8080/api/v1/books',
+    //     getOne      :   'http://localhost:8080/api/v1/books',
+    //     updateOne   :   'http://localhost:8080/api/v1/books/updateBook',
+    //     postOne     :   'http://localhost:8080/api/v1/books/addNewBook',
+    //     deteleOne   :   'http://localhost:8080/api/v1/books/deleteBook',
+    //     deteleAll   :   'http://localhost:8080/api/v1/books/deleteAllBooks'
+    // }
     const Book = {}
 
     Book.all = []
