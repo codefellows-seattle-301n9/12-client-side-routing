@@ -7,33 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <base href=".">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <link rel="stylesheet" type="text/css" href="styles/layout.css">
     <link rel="stylesheet" type="text/css" href="styles/modules.css">
+    <link rel="stylesheet" type="text/css" href="styles/vendor/icons.css">
 </head>
 
 <body>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="./">home</a>
-            </li>
-            <li>
-                <a href="./admin">admin</a>
-            </li>
-            <li>
-                <a href="./book-create-page">create</a>
-            </li>
-        </ul>
-    </nav>
+   
+            <nav class="main-nav">
+                   
+                    <div class="icon-menu"></div>
+                    <ul class="menu">
+                      <li class="tab" ><a href="/" class="icon-home"> Home</a></li>
+                      <li class="tab" ><a href="/admin">Admin</a></li>
+                      <li><a href="/book-create-page"> New</a></li>
+                    </ul>
+                  </nav>
+       
+      
+  
 
     <!-- pages -->
-    <section id="book-list-page" class="page" style="background:gray;">
+    <section id="book-list-page" class="page" >
         <h1>books</h1>
         <div id="book-list-slot"></div>
     </section>
-    <section id="book-detail-page" class="page" style="background:green;">
+    <section id="book-detail-page" class="page" >
         <h1>detail page</h1>
         <div id="book-detail-slot"></div>
     </section>

@@ -13,8 +13,7 @@ var app = app || {};
                         <h3>{{title}}</h3>
                         <h4>by {{author}}</h4>
                         
-                        <button class="show-book" data-book_id="{{book_id}}">Show</button>
-                        <button class="update-book" data-book_id="{{book_id}}">Update</button>
+                
                     </div>
                 </div>
                 <hr>
