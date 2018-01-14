@@ -55,3 +55,10 @@
 .byline {
     color: grey;
 }
+
+.book-pages{
+    text-align: center;
+}
+.attribution{
+    text-align: auto;
+}
