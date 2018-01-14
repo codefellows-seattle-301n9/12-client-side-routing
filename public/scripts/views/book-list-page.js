@@ -4,16 +4,17 @@ var app = app || {};
     const bookListPage = {};
 
     const markup = `
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-6">
+            <div class="book-pages">
+                <div >
+                    <div >
                         <img src="{{{image_url}}}" alt="" width="400">
                     </div>
-                    <div class="col-md-6">
-                        <h3>{{title}}</h3>
-                        <h4>by {{author}}</h4>
-                        
-                
+                    <hr>
+                    <div class="attribution">
+                        <h1>
+                            <a href="/book-detail-page/{{book_id}}" >{{title}}</a>
+                        </h1>
+                        <h2> by {{author}} </h2>
                     </div>
                 </div>
                 <hr>
