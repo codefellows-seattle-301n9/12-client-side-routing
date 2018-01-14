@@ -1,27 +1,27 @@
-#As a User
 
-#-1-[X] Request single book {
+## Documentation
+# Project Name
 
-#--A-[X] Add Endpoint using GET request
-#--B-[X] Add fetchOne() method in Book.js
-#--C-[X] Add container id="book-detail-slot" in html file to house data
-#}
+**Author**: Dennis, Aaron and Ayanle
+**Version**: 1.1.0 
 
-#-2-[X] Add new books to the list of books displayed on home page {
+## Overview
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+This is a single-page-application built using Node, Express, PostgreSQL, JQuery and Handlebars.
 
-#--A-[X] Create controller file named routes.js
-#--B-[X] Create form with fields for title, author, isbn, image_url, and description
-#--C-[X] On Submit, POST the form data to the list of books in the table
-#}
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Clone this repo, install npm dependancies, start server in directory of server.js
 
-#-3-[X] Mobile Friendly app
+## Architecture
 
-#-4-[X] App is clean and free of distractions {
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 
-#--A-[X] Add hamburger menu to house nav bar
-#}
+## Change Log
+<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
 
-#-5-[X] Style app using module.css, base.css, and layout.css files {
+01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+## Credits and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-#--A-[X] SMACCS
-#}
+-->
